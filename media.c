@@ -8,20 +8,19 @@ int main()
     printf("\nEntre nota 2:");
     scanf("\n%f", &nota2);
     
-    media = (nota1 + nota2)/2;
+    media = (nota1+nota2)/2;
     
     if (media<= 5.0)
     {
-        printf("REPROVADO");
+        printf("\nREPROVADO!!");
         
     }
     else if (media<7)
     {
-    printf("\nRECUPERACAO\n");
+    printf("\nRECUPERACAO!!\n");
     }
-    else (media>7)
-    {
-     printf("\nAPROVADO\n");
+    else {
+     printf("\nAPROVADO!!\n");
     }
     return 0;
     }
