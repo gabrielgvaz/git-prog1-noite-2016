@@ -1,33 +1,21 @@
 #include <stdio.h>
 int main()
 {   
-    char resto;
-    float num;
-
+    int num, i=0, j, resto[30];
     printf("Digite o numero a ser convertido para binario:\n");
-    scanf("%f", &num);
+    scanf("%d", &num);
     while (num>0)
-    { 
-        resto = num%2;
-        printf("%d", resto);
-        num = num/2;
+    {  
+        resto[i] = num % 2;
+        i++;
+        num = num/2; 
     }
-    
-    return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
+        printf("O numero binário é: ");
+        for(j=i - 1; j>=0; j--)
+        {
+            printf("%d", resto[j]);
+        }
+        printf("\n");
+        return 0;
+    }
