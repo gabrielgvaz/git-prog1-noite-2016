@@ -1,15 +1,4 @@
-/*Qual operação deseja?
-1 - adição
-2 - subtração
-3 - multiplicação
-4 - divisão
-Opção:2
-Entre com num1: 5
-Entre com num2: 3
-Resultado : 5 - 3 = 2
 
-Deseja continuar(1-s/2-n)?
-*/
 #include <stdio.h>
 int main()
 {
@@ -24,12 +13,12 @@ int main()
     printf("\nEntre com o numero 2: ");
     scanf("%f", &n2);
     printf("\n");
-    switch(op)
+    switch(op) //escolher
     {
-        case 1:
+        case 1: //caso se...
         resposta = n1 + n2;
         break;
-        case 2: 
+        case 2: //caso se...
         resposta = n1 - n2;
         break;
         case 3: 
