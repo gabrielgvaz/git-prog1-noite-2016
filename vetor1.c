@@ -35,6 +35,7 @@ int main()
     
     printf("\n%d alunos tiraram a maior nota que foi %2.f", contmaior, maior);
     printf("\n");      
+    
     return 0;
 }
  
