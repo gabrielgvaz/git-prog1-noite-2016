@@ -2,7 +2,7 @@
 int main()
 {
     int i, j;
-    float notas[4][3]; //coluna 0, 1, 2 = av1, av2 e av3
+    float notas[4][3], media; //coluna 0, 1, 2 = av1, av2 e av3
     
     for(i=0;i<4;i++)
     {
